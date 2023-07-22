@@ -15,6 +15,22 @@ return {
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
 
-  -- Add Ai plugins
+  -- add ai plugins
   { import = "astrocommunity.completion.copilot-lua" },
+  
+  -- Add Active indent plugins
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    opts = {
+      show_current_context = false,
+    },
+  },
+  { import = "astrocommunity.indent.mini-indentscope" },
+  {  
+    "echasnovski/mini.indentscope",
+    opts = {
+      symbol = "╎",
+      options = { try_as_border = false, indent_at_cursor = true },
+    },
+  },
 }
