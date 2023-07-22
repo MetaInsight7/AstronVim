@@ -14,4 +14,7 @@ return {
   -- Add colorscheme
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
+
+  -- Add Ai plugins
+  { import = "astrocommunity.completion.copilot-lua" },
 }
