@@ -13,7 +13,14 @@ return {
   
   -- Add colorscheme
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
-  { import = "astrocommunity.colorscheme.dracula-nvim" },
+  -- {
+  --   "olimorris/onedarkpro.nvim",
+  --   opts = {
+  --     options = {
+  --       transparency = true
+  --     },
+  --   },  
+  -- },
 
   -- add ai plugins
   { import = "astrocommunity.completion.copilot-lua" },
