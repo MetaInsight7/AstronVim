@@ -24,6 +24,7 @@ return {
 
   -- add ai plugins
   { import = "astrocommunity.completion.copilot-lua" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   
   -- Add Active indent plugins
   {
@@ -33,11 +34,11 @@ return {
     },
   },
   { import = "astrocommunity.indent.mini-indentscope" },
-  {  
-    "echasnovski/mini.indentscope",
-    opts = {
-      symbol = "╎",
-      options = { try_as_border = false, indent_at_cursor = true },
-    },
-  },
+  -- {  
+  --   "echasnovski/mini.indentscope",
+  --   opts = {
+  --     symbol = "╎",
+  --     options = { try_as_border = false, indent_at_cursor = true },
+  --   },
+  -- },
 }

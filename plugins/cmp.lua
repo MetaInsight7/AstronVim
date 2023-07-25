@@ -14,10 +14,8 @@ return {
         completeopt = "menu,menuone,noinsert",
       },
       mapping = {
-        ["<Tab>"] = cmp.mapping.confirm { select = false },
+        -- ["<Tab>"] = cmp.mapping.confirm { select = false },
       },
     })
   end,
 }
-
-
